@@ -1,7 +1,6 @@
 package com.example.patientmanagmentsystem;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class DoctorDetailsActivity extends AppCompatActivity {
