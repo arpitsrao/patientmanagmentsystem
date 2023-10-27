@@ -5,21 +5,58 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back2"
     tools:context=".DoctorDetailsActivity">
 
-  <TextView
-      android:id="@+id/textView_logo3"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDDName"
+        android:text="24x7 HEALTHCARE"
+        android:textColor="@color/purple_200"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginEnd="84dp"
-      android:text="24x7 HEALTHCARE"
-      android:textColor="@color/purple_200"
-      android:textSize="34sp"
+      android:id="@+id/textViewDDTitle"
+      android:text="Family Physicians"
+      android:textColor="@color/colorWhite"
+      android:textSize="20sp"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintEnd_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.045
-" />
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/textViewDDName"
+      app:layout_constraintVertical_bias="0.01999998" />
+
+  <ListView
+      android:id="@+id/listViewDD"
+      android:layout_width="wrap_content"
+      android:layout_height="400dp"
+      android:layout_margin="10dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/textViewDDTitle" />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonDDBack"
+      android:text="BACK"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintVertical_bias="0.069" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
