@@ -17,46 +17,46 @@ import java.util.HashMap;
 public class DoctorDetailsActivity extends AppCompatActivity {
     private String [][] doctor_details1 =
             {
-                    {"Doctor Name : Joe Biden", "Hospital Address : CBD","Auckland Hospital", "Exp : 11 yrs", "$50"},
-                    {"Doctor Name : Chris Luxon", "Hospital Address : Mount Roskill","Auckland Hospital", "Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Narendra Modi", "Hospital Address : Sandringham", "Auckland Hospital","Exp : 20 yrs", "$60"},
-                    {"Doctor Name : Xi Jingping", "Hospital Address : Mount Eden", "Auckland Hospital","Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Benjamin Netanyahu", "Hospital Address : Mount Zion", "Auckland Hospital","Exp : 9 yrs", "$100"}
+                    {"Dr. Joe Biden", "Location: CBD","Clinic: 021021021", "Exp : 11 yrs", "$50"},
+                    {"Dr. Chris Luxon", "Location: Papatoetoe","Clinic: 021022023", "Exp : 5 yrs", "$70"},
+                    {"Dr. Chris Hipkins", "Location: Mt. Roskill","Clinic: 021201021","Exp : 20 yrs", "$60"},
+                    {"Dr. Xi Jao", "Location : Mt. Eden", "Clinic: 127213123","Exp : 5 yrs", "$70"},
+                    {"Dr. Benjamin", "Hospital Address : Mt. Zion", "Clinic: 231123122","Exp : 9 yrs", "$100"}
             };
     private String [][] doctor_details2 =
             {
-                    {"Doctor Name : Joe Biden", "Hospital Address : CBD","Auckland Hospital", "Exp : 11 yrs", "$50"},
-                    {"Doctor Name : Chris Luxon", "Hospital Address : Mount Roskill","Auckland Hospital", "Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Narendra Modi", "Hospital Address : Sandringham", "Auckland Hospital","Exp : 20 yrs", "$60"},
-                    {"Doctor Name : Xi Jingping", "Hospital Address : Mount Eden","Auckland Hospital", "Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Benjamin Netanyahu", "Hospital Address : Mount Zion","Auckland Hospital", "Exp : 9 yrs", "$100"}
+                    {"Dr. Joe Biden", "Location: CBD","Clinic: 021021021", "Exp : 11 yrs", "$50"},
+                    {"Dr. Chris Luxon", "Location: Papatoetoe","Clinic: 021022023", "Exp : 5 yrs", "$70"},
+                    {"Dr. Chris Hipkins", "Location: Mt. Roskill","Clinic: 021201021","Exp : 20 yrs", "$60"},
+                    {"Dr. Xi Jao", "Location : Mt. Eden", "Clinic: 127213123","Exp : 5 yrs", "$70"},
+                    {"Dr. Benjamin", "Hospital Address : Mt. Zion", "Clinic: 231123122","Exp : 9 yrs", "$100"}
             };
 
     private String [][] doctor_details3 =
             {
-                    {"Doctor Name : Joe Biden", "Hospital Address : CBD","Auckland Hospital", "Exp : 11 yrs", "$50"},
-                    {"Doctor Name : Chris Luxon", "Hospital Address : Mount Roskill", "Auckland Hospital","Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Narendra Modi", "Hospital Address : Sandringham","Auckland Hospital", "Exp : 20 yrs", "$60"},
-                    {"Doctor Name : Xi Jingping", "Hospital Address : Mount Eden","Auckland Hospital", "Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Benjamin Netanyahu", "Hospital Address : Mount Zion", "Auckland Hospital","Exp : 9 yrs", "$100"}
+                    {"Dr. Joe Biden", "Location: CBD","Clinic: 021021021", "Exp : 11 yrs", "$50"},
+                    {"Dr. Chris Luxon", "Location: Papatoetoe","Clinic: 021022023", "Exp : 5 yrs", "$70"},
+                    {"Dr. Chris Hipkins", "Location: Mt. Roskill","Clinic: 021201021","Exp : 20 yrs", "$60"},
+                    {"Dr. Xi Jao", "Location : Mt. Eden", "Clinic: 127213123","Exp : 5 yrs", "$70"},
+                    {"Dr. Benjamin", "Hospital Address : Mt. Zion", "Clinic: 231123122","Exp : 9 yrs", "$100"}
             };
 
     private String [][] doctor_details4 =
             {
-                    {"Doctor Name : Joe Biden", "Hospital Address : CBD","Auckland Hospital", "Exp : 11 yrs", "$50"},
-                    {"Doctor Name : Chris Luxon", "Hospital Address : Mount Roskill", "Auckland Hospital","Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Narendra Modi", "Hospital Address : Sandringham","Auckland Hospital", "Exp : 20 yrs", "$60"},
-                    {"Doctor Name : Xi Jingping", "Hospital Address : Mount Eden","Auckland Hospital", "Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Benjamin Netanyahu", "Hospital Address : Mount Zion", "Auckland Hospital","Exp : 9 yrs", "$100"}
+                    {"Dr. Joe Biden", "Location: CBD","Clinic: 021021021", "Exp : 11 yrs", "$50"},
+                    {"Dr. Chris Luxon", "Location: Papatoetoe","Clinic: 021022023", "Exp : 5 yrs", "$70"},
+                    {"Dr. Chris Hipkins", "Location: Mt. Roskill","Clinic: 021201021","Exp : 20 yrs", "$60"},
+                    {"Dr. Xi Jao", "Location : Mt. Eden", "Clinic: 127213123","Exp : 5 yrs", "$70"},
+                    {"Dr. Benjamin", "Hospital Address : Mt. Zion", "Clinic: 231123122","Exp : 9 yrs", "$100"}
             };
 
     private String [][] doctor_details5 =
             {
-                    {"Doctor Name : Joe Biden", "Hospital Address : CBD","Auckland Hospital", "Exp : 11 yrs", "$50"},
-                    {"Doctor Name : Chris Luxon", "Hospital Address : Mount Roskill", "Auckland Hospital","Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Narendra Modi", "Hospital Address : Sandringham","Auckland Hospital", "Exp : 20 yrs", "$60"},
-                    {"Doctor Name : Xi Jingping", "Hospital Address : Mount Eden","Auckland Hospital", "Exp : 5 yrs", "$70"},
-                    {"Doctor Name : Benjamin Netanyahu", "Hospital Address : Mount Zion", "Auckland Hospital","Exp : 9 yrs", "$100"}
+                    {"Dr. Joe Biden", "Location: CBD","Clinic: 021021021", "Exp : 11 yrs", "$50"},
+                    {"Dr. Chris Luxon", "Location: Papatoetoe","Clinic: 021022023", "Exp : 5 yrs", "$70"},
+                    {"Dr. Chris Hipkins", "Location: Mt. Roskill","Clinic: 021201021","Exp : 20 yrs", "$60"},
+                    {"Dr. Xi Jao", "Location : Mt. Eden", "Clinic: 127213123","Exp : 5 yrs", "$70"},
+                    {"Dr. Benjamin", "Hospital Address : Mt. Zion", "Clinic: 231123122","Exp : 9 yrs", "$100"}
             };
 
 
@@ -129,7 +129,7 @@ public class DoctorDetailsActivity extends AppCompatActivity {
                 it.putExtra("text1",title);
                 it.putExtra("text2",doctor_details[i][0]);
                 it.putExtra("text3",doctor_details[i][1]);
-                it.putExtra("text4",doctor_details[i][3]);
+                it.putExtra("text4",doctor_details[i][2]);
                 it.putExtra("text5",doctor_details[i][4]);
                 startActivity(it);
             }
